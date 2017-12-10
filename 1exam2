@@ -1,0 +1,18 @@
+////each of the following two code segments prints out the first ten odd integers.   
+int n = 10, int i=1;
+while(i<=2*n-1){
+System.out.println(i);
+i = i+2;
+}
+
+int n = 10, int i=-1;
+while(i<=2*n-1){
+i = i+2;
+System.out.println(i);
+}
+/// (a)For the code segment on the top, what would be the output if we had 
+//// forgotten to include the pair of braces ? Explain your answer.
+//// the output would be 1 forever b/c i never changes b/c it is outside the while loop
+///(b)For the code segment on the bottom, what would be the output if we had 
+//// forgotten to include the pair of braces ? Explain your answer.
+//// the output would be 19, the while loop increments i by 2 till i = 19 the i(19) is printed out  
